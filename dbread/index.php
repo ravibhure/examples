@@ -42,7 +42,7 @@ $dbh = pg_connect("host=$hostname_DB dbname=$database_DB user=$username_DB passw
 $num=pg_num_rows($result);
 
  // free memory
- pg_free_result($result);
+ // pg_free_result($result);
 
  // close connection
  pg_close($dbh);
