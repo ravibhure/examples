@@ -20,6 +20,6 @@ task :get_common do
 end
 
  task :load_sql do
-      load_cmd= "mysql < db/app_test.sql"
+      load_cmd= "psql -h localhost -U postgres -d app_test -c < db/app_test.sql"
       system(load_cmd)
      end
