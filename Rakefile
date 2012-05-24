@@ -20,7 +20,7 @@ task :get_common do
 end
 
  task :create_db do
-      load_cmd= "if [ `psql -h localhost -U postgres --list | grep 'app_test'| wc -l` == "0" ]; then psql -h localhost -U postgres -c "create database app_test"; fi"
+      load_cmd= "if [ `psql -h localhost -U postgres --list | grep 'app_test'| wc -l` == '0' ]; then psql -h localhost -U postgres -c 'create database app_test'; fi"
       system(load_cmd)
      end
 
