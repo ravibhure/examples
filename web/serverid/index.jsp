@@ -28,7 +28,7 @@ String hostname = inetAddress.getHostName();
 <div class="code">
 
 <h3>
-Tomcat server
+JBoss server
 </h3>
 ip=<%= ip_addr %>; <br/>
 hostname=<%= hostname %>; <br/>

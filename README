@@ -1,6 +1,6 @@
 OVERVIEW
 ========
-This is the tomcat incarnation of the RightScale Unified Test application. For more info on 
+This is the jboss incarnation of the RightScale Unified Test application. For more info on 
 the heck that is, checkout the wiki page: 
 
 https://rightscale.onconfluence.com/display/rightscale/Unified+Test+App
@@ -18,6 +18,6 @@ The war file to deploy can be found in ./dist
 
 LICENSE
 =======
-Copyright (c) 2010 RightScale, Inc.
+Copyright (c) 2012 RightScale, Inc.
 
 All rights reserved - Do Not Redistribute

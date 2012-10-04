@@ -26,7 +26,7 @@ String result = "succeeded";
 <div class="code">
 
 <h3>  
-Tomcat configuration=<%= result %>
+JBoss configuration=<%= result %>
 </h3>
 
 </div>
