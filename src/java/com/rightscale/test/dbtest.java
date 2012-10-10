@@ -7,7 +7,7 @@ import java.sql.*;
  
 public class dbtest {
 	
-	static String DS_NAME = "java:jboss/MYSQLDB"; 
+	static String DS_NAME = "java:jboss/ConnDB"; 
 	static int MAX_ROWS = 10;  // maximum rows from db to display
 
 	String connectionStatus = "Not Connected";
